@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:
+        "1 1 ."
+        "4 5 6" */
+}
+
+#buttoncontainer {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-column-gap: 10px;
+}
+
+#page-1-columns {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: ;
+}
+
+#button1 {
+    background-color: black;
+    color: white;
+}
+
+#button2 {
+    background-color: white;
+}
+
+.column {
+    height: 420px;
+    width: 270px;
+    display: inline-block;
+    /* margin-top: 55px; */
+}
+
+#column1 {
+    /* border: 1px solid pink; */
+    margin-top: 55px;
+    margin-left: 55px;
+    background-color: white;
+    /* display: inline-block; */
+    /* order: 0; */
+    grid-area: 4;
+}
+
+#blackbox {
+    background-color: black;
+    height: 269px;
+    width: 270px;
+}
+
+#whitebox {
+    height: 22px;
+    width: 22px;
+}
+
+h4 {
+    font-weight: normal;
+    margin-left: 22px;
+}
+
+#title {
+    font-weight: 300;
+}
+
+h6 {
+    margin-left: 22px;
+    margin-top: 75px;
+    font-weight: lighter;
+}
+
+#column2 {
+    border: 1px solid black;
+    margin-top: 55px;
+    margin-left: 55px;
+    /* display: inline-block; */
+    /* order: 1; */
+    grid-area: 5;
+}
+
+#column2border {
+    text-align: center;
+}
+
+#feature {
+    opacity: 0.5;
+}
+
